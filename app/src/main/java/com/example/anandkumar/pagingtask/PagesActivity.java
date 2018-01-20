@@ -50,7 +50,7 @@ public class PagesActivity extends AppCompatActivity {
         PagerSlidingTabStrip tabLayout = findViewById(R.id.tabs);
 
         tabLayout.setViewPager(mViewPager);
-        tabLayout.setScrollOffset((getResources().getDisplayMetrics().widthPixels / 6));
+        tabLayout.setScrollOffset((getResources().getDisplayMetrics().widthPixels / 8));
     }
 
     /**
@@ -94,7 +94,7 @@ public class PagesActivity extends AppCompatActivity {
      */
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
         final int PAGE_COUNT = 15;
-        private String tabTitles[] = new String[]{"Sports", "Technologies", "Design", "Politics", "Movies",
+        private String tabTitles[] = new String[]{"Sports", "Technology", "Design", "Politics", "Movies",
                 "Music", "Lifestyle", "Food", "Celebrities", "Realtors", "Beauty", "Fashion", "Space", "Travel", "Auto"};
 
         SectionsPagerAdapter(FragmentManager fm) {

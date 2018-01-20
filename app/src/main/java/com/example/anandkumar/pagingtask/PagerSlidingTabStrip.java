@@ -310,7 +310,7 @@ public class PagerSlidingTabStrip extends HorizontalScrollView {
         if (isPaddingMiddle && mTabsContainer.getChildCount() > 0) {
             View view = mTabsContainer.getChildAt(0);
             int halfWidthFirstTab = view.getMeasuredWidth() / 2;
-            mPaddingLeft = mPaddingRight = getWidth() / 5 - halfWidthFirstTab;
+            mPaddingLeft = mPaddingRight = getWidth() / 4 - halfWidthFirstTab;
         }
 
         if (isPaddingMiddle || mPaddingLeft > 0 || mPaddingRight > 0) {
